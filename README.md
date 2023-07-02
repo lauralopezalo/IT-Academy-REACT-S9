@@ -1,71 +1,88 @@
-# Getting Started with Create React App
+# Sardenya CoWorks Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the source code for a landing page created using React, JavaScript, Axios, Styled Components, and Tailwind CSS. The landing page showcases a coworking office and provides information about its services, amenities, and pricing.
 
-## Available Scripts
+You can visit the deployed version of the landing page [here](https://sardenya-coworks-e7y1tz44p-lauralopezalo.vercel.app/).
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Responsive design: The landing page is optimized for different screen sizes, ensuring a seamless user experience across devices.
+- Dynamic content: The page fetches data from a server using Axios to populate sections such as testimonials, pricing plans, and featured amenities.
+- Styled Components: The project leverages Styled Components for styling, allowing for a modular and component-based approach to CSS.
+- Tailwind CSS: The utility-first CSS framework Tailwind CSS is used to enhance the styling and layout of the landing page.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![screencapture-sardenya-coworks-e7y1tz44p-lauralopezalo-vercel-app-2023-07-02-17_39_34](https://github.com/lauralopezalo/sardenya-coworks/assets/109240574/7475a034-d73b-425e-8735-db88317cdc46)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
 
-### `npm run build`
+```
+git clone https://github.com/lauralopezalo/sardenya-coworks.git
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navigate to the project directory:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+cd sardenya-coworks
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Install the dependencies:
 
-### `npm run eject`
+```
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Start the development server:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Open a web browser and visit `http://localhost:3000` to see the landing page.
 
-## Learn More
+## Project Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The project follows a standard React project structure:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- `src/components`: Contains reusable components used in the landing page.
+- `src/pages`: Contains the main pages of the application, such as Home, About, and Contact.
+- `src/services`: Includes service modules responsible for fetching data from the server using Axios.
+- `src/App.tsx`: The entry point of the application, where routes and layout components are defined.
+- `src/index.tsx`: The root file that renders the React application.
 
-### Code Splitting
+## Customization
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To customize the content and appearance of the landing page, you can modify the following files:
 
-### Analyzing the Bundle Size
+- `src/components`: Update or create new components to reflect your desired structure and layout.
+- `src/pages`: Adjust the content of the pages according to your needs.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Deployment
 
-### Making a Progressive Web App
+To deploy the landing page to a hosting provider, follow the steps below:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Build the production-ready bundle:
 
-### Advanced Configuration
+```
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+2. The build artifacts will be generated in the `build` directory. You can deploy the contents of this directory to your chosen hosting provider.
 
-### Deployment
+For more detailed instructions on deployment, consult the documentation of your preferred hosting platform.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Contributing
 
-### `npm run build` fails to minify
+Contributions to this project are welcome. If you encounter any issues or would like to propose improvements, please open an issue or submit a pull request. Please follow the existing code style and conventions.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Hack4Good
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Thank you for checking out this repository! If you have any questions or feedback, feel free to reach out. Happy coding!
