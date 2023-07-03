@@ -1,8 +1,10 @@
-# Sardenya CoWorks Landing Page
+# Sardenya CoWorks
 
 This repository contains the source code for a landing page created using React, JavaScript, Axios, Styled Components, and Tailwind CSS. The landing page showcases a coworking office and provides information about its services, amenities, and pricing.
 
 You can visit the deployed version of the landing page [here](https://sardenya-coworks-e7y1tz44p-lauralopezalo.vercel.app/).
+
+<br>
 
 ## Features
 
@@ -11,8 +13,11 @@ You can visit the deployed version of the landing page [here](https://sardenya-c
 - Styled Components: The project leverages Styled Components for styling, allowing for a modular and component-based approach to CSS.
 - Tailwind CSS: The utility-first CSS framework Tailwind CSS is used to enhance the styling and layout of the landing page.
 
+<br>
+
 ![screencapture-sardenya-coworks-e7y1tz44p-lauralopezalo-vercel-app-2023-07-02-17_39_34](https://github.com/lauralopezalo/sardenya-coworks/assets/109240574/7475a034-d73b-425e-8735-db88317cdc46)
 
+<br>
 
 ## Installation
 
@@ -34,6 +39,8 @@ cd sardenya-coworks
 npm install
 ```
 
+<br>
+
 ## Usage
 
 1. Start the development server:
@@ -43,6 +50,8 @@ npm start
 ```
 
 2. Open a web browser and visit `http://localhost:3000` to see the landing page.
+
+<br>
 
 ## Project Structure
 
@@ -54,12 +63,16 @@ The project follows a standard React project structure:
 - `src/App.tsx`: The entry point of the application, where routes and layout components are defined.
 - `src/index.tsx`: The root file that renders the React application.
 
+<br>
+
 ## Customization
 
 To customize the content and appearance of the landing page, you can modify the following files:
 
 - `src/components`: Update or create new components to reflect your desired structure and layout.
 - `src/pages`: Adjust the content of the pages according to your needs.
+
+<br>
 
 ## Deployment
 
@@ -79,9 +92,13 @@ For more detailed instructions on deployment, consult the documentation of your 
 
 Contributions to this project are welcome. If you encounter any issues or would like to propose improvements, please open an issue or submit a pull request. Please follow the existing code style and conventions.
 
+<br>
+
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the MIT License.
+
+<br>
 
 ---
 
